@@ -1,5 +1,0 @@
-rgb(102, 96, 87);-posht ngjyra
-rgb(36, 81, 87);-qosh ngjyre
-  rgb(154, 194, 204); maybe-ngjyre
-rgb(121, 168, 186);-kalter-ish
-}
