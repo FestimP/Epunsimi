@@ -392,7 +392,11 @@ margin-left: -100px;
 .footer li{
     margin-bottom: 20px ;
 }
-a:link,a:visited {
+ .footer li a:link,a:visited {
     text-decoration: none;
     color:#333
+}
+.footer li a:hover,a:active {
+   transition: all 0.2s ease-in-out;
+    border-bottom: 2px solid #333;
 }
