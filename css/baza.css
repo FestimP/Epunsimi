@@ -13,8 +13,9 @@ Ngjyrat : Main :#3D9FFF
 *{
     font-family: 'Inter', sans-serif;
     box-sizing: border-box;
-
-    
+}
+html {
+    font-size: 10px;
 }
 body{
     margin:0 auto;
@@ -28,15 +29,16 @@ body{
    height:100%;
     align-content: center;
     background-color: #def0f2;
+    font-size: 1.6rem;
 }
 .nav .logo{
     width:auto;
-     height:80px;
+     height:8rem;
 }
    
 .Sh-nav .h1{
-    height:100px;
-    width: 50px;
+    height:10rem;
+    width: 5rem;
 
 }
 .Sh-nav .a{
@@ -54,20 +56,20 @@ text-decoration: none;
 }
 .vija{
     height:100%;
-    width:2px;
+    max-width:2px;
     background-color: white;
     display: inline-block;
-border-top: 12px solid gray;
+border-top: 1.2rem solid gray;
 display: none;
 }
 .kontenti{
    float: right;
    align-items: center;
-   margin: 12px;
-   margin-right: 60px;
+   margin: 1.2rem;
+   margin-right: 6rem;
 }
 .kontenti a{
-    margin-left: 40px;
+    margin-left: 4rem;
 }
 
 .Main .koka{
@@ -76,7 +78,7 @@ display: none;
    /* background-image: url("/img/st.jpg"); */
  background-color: #cccccc;
 width: 100%;
-max-height: 1000px;
+max-height: 100rem;
 }
 .Main .koka .majtas{
     width:100%;
@@ -101,7 +103,7 @@ height: auto;
     /* font-size:110px */
     font-weight: bold;
     margin: 0 auto;
-    padding: 10px;
+    padding: 1rem;
     width: 100%;
     text-align: center;
     position: absolute;
@@ -110,14 +112,15 @@ left: 50%;
     transform: translate(-50%, -50%);
     mix-blend-mode: screen;
     height: 19%;
+
 }
 .texti{
     position: absolute;
 top: 50%;
 left: 39%;
-font-size: 44px;
+font-size: 4.4rem;
 opacity: 0.7;
-line-height: 50px;
+line-height: 5rem;
 letter-spacing: 0.7px;
 }
 /* .Main  .koka h1{
@@ -133,10 +136,10 @@ left: 40%;
 } 
 .btn{
 border-radius: 15px;
-padding: 12px 24px;
+padding: 1.2rem 2.4rem;
 font-size: 18px;
 background-color:#3D9FFF;
-margin-left: 24px;
+margin-left: 2.4rem;
 }
 .btn:link,
 .btn:visited{
@@ -144,14 +147,14 @@ background-color:#12b886 ;
 color: white;
 text-transform: uppercase;
 text-decoration: none;
-padding: 8px 16px;
+padding: 0.8rem 1.6rem;
 display: inline-block;
 font-weight: 600;
-font-size: 18px;
+font-size: 1.8rem;
 border-radius: 50px;
 }
 .btn:hover,.btn:active{
-  box-shadow: 0px 15px 10px rgba(0, 0, 0,0.06);
+  box-shadow: 0px 1.5rem 1rem rgba(0, 0, 0,0.06);
 background-color:transparent
 }
 .btn-1{
@@ -179,7 +182,7 @@ top: 100%;
 .btn-main-2:link,
 .btn-main-2:visited{
     background-color: none;
-    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.06);
 }
 .btn-main-2:hover ,.btn-main-2:active {
     background-color: #12b886;
@@ -195,47 +198,51 @@ top: 100%;
 }
 #email{
     background: #3D9FFF;
-	padding: 10px;
+	padding: 1rem;
 	border: none;
-	width: 300px;
-	height: 65px;
+	max-width: 30rem;
+	height: 6.5rem;
 	border-radius: 5px;
-	font-size: 18px;
+	font-size: 1.8rem;
 	color: white;
-	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+	box-shadow: 0 0.4rem 2rem rgba(0, 0, 0, 0.6);
 }
 #regjistrohu{
-	padding: 20px 25px;
+	padding: 2rem 2.4rem;
 	border-radius: 5px;
  	border: 1px solid #CAD3DB;
-	width: 200px;
-	font-size: 18px;
+	max-width: 20rem;
+	font-size: 1.8rem;
 	color: #0F121F;
 background-color: #12b886;}
 /*.btn:active {
   box-shadow: none;
   b;
 } */
+article {
+    margin-top: 12.8rem;
+}
 article h3{
     padding-left: 44%;
-margin: 48px;
-font-size: 30px;
+margin: 4.8rem;
+font-size: 3rem;
 }
 .container{
     display: flex;
 margin: 0px auto;
 justify-content: space-between;
-width: 1440px;
+max-width: 144rem;
 flex-wrap: nowrap;
-margin-bottom: 42px;
+margin-bottom: 4.2rem;
 letter-spacing: 0.5px;
+font-size: 1.8rem;
 }
 .perfitimet{
     
-    width: 544px;
-height: 277px;
-padding: 71px 90px 75px 113px;
-border-radius: 30px;
+    max-width: 54.4rem;
+max-height: 27.7rem;
+padding: 4rem 9rem 7.5rem 11.3rem;
+border-radius: 3rem;
 box-shadow: 0 0 1px 0 rgba(0,0,0,.06),0 2px 6px 0 rgba(0,0,0,.06),0 16px 24px 0 rgba(0,0,0,.06);
 border: 1px solid rgba(38, 93, 135, 0.6);
 background-color: #fff;
@@ -246,15 +253,15 @@ background: none;
     flex-flow: column nowrap;
     align-items: center;
     width: 100%;
-    gap: 60px;
+    gap: 6rem;
   }
 .pjesa-djatht{
     display: flex;
-    margin: 150px 0px 0px;
+    margin: 15rem 0rem 0rem;
     flex-flow: column nowrap;
     align-items: center;
     width: 100%;
-    gap: 60px;
+    gap: 6rem;
   }
 /* Per Faq  */
 /* Start */
@@ -264,39 +271,42 @@ background: none;
 /* review pjesa */
 
 .img{
-    height: 48px;
+    height: 4.8rem;
 border-radius: 8px;
 }
 img{
-    height:48px
+    height:4.8rem;
 }
 .article {
+    margin-top: 12.8rem;
     border-radius: 1px solid gray;
-    box-shadow: 0px 0px 15px 0px rgba(38, 93, 135, 0.06);
+    box-shadow: 0 0 1.5rem 0 rgba(38, 93, 135, 0.06);
     background-color:  #12b886;
 }
 .article h3{
     padding-left: 44%;
-margin: 48px;
-font-size: 30px;
-margin-left: -100px;
+margin: 4.8rem;
+font-size: 3rem;
+margin-left: -10rem;
+margin-bottom: 6.4rem;
 }
 
 .reviews{
     display: flex;
-    gap: 70px;
-    margin: 23px 25px;
+    gap: 7rem;
+    margin: 2.3rem 2.5rem;
+    font-size: 1.6rem;
 }
 .review-author .mini-component{
     text-transform:uppercase ;
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #333;
-    margin-left: 12px;
+    margin-left: 1.2rem;
 }
 /* ikonat e yjeve */
 .icon{
-    width: 24px;
-    height:24px;
+    max-width: 2.4rem;
+    max-height:2.4rem;
 }
 .icons-review{
     display: flex;
@@ -317,38 +327,40 @@ margin-left: -100px;
 	justify-content: center;
 	background: white;
 	width: 100%;
-	height: 474px;
+	height: 47.4rem;
     border-top: 1px solid #3D9FFF;
 	border-radius: 5px ;
-	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06)
+	box-shadow: 0 0.4rem 2rem rgba(0, 0, 0, 0.06);
+    font-size: 1.8rem;
+    margin-top: 12.8rem;
 }
 
 
 .subscribe-title {
 	font-weight: bold;
-	font-size: 26px;
-	margin-bottom: 18px;
+	font-size: 2.6rem;
+	margin-bottom: 1.8rem;
     background: none;
 }
 
 .subscribe-copy {
-	max-width: 450px;
+	max-width: 45rem;
 	text-align: center;
-	margin-bottom: 53px;
+	margin-bottom: 5.3rem;
 	line-height: 1.5;
     background: none;
 }
 
 .forma {
-	margin-bottom: 25px;
+	margin-bottom: 2.5rem;
 }
 
 .form-email {
-	padding: 20px 25px;
+	padding: 2rem 2.5rem;
 	border-radius: 5px;
  	border: 1px solid #CAD3DB;
-	width: 431px;
-	font-size: 18px;
+	max-width: 43rem;
+	font-size: 1.8rem;
 	color: #0F121F;
 }
 
@@ -360,37 +372,38 @@ margin-left: -100px;
 	background: #3D9FFF;
 	padding: 10px;
 	border: none;
-	width: 244px;
-	height: 65px;
+	width: 24.5rem;
+	height: 6.5rem;
 	border-radius: 5px;
-	font-size: 18px;
+	font-size: 1.8rem;
 	color: white;
-	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+	box-shadow: 0 0.4rem 2rem rgba(0, 0, 0, 0.06);
 }
 
 .form-button:hover {
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.06);
+	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.06);
 }
 
 .notice-copy {
-	width: 345px;
+	width: 34.5rem;
     background: none;
 } 
 /* footer */
 .footer{
-    padding: 96px 57px;
-    margin-top: 40px;
+    padding: 10rem 6rem;
+    margin-top: 12.8rem;
     display: flex;
 	width: 100%;
-	height: 474px;
+	max-height: 47.4rem;
 	border-radius: 5px;
     border-top: 1px solid rgba(0,0,0,.06);
-    gap: 100px;
+    gap: 10rem;
     background-color: #3D9FFF;
+    font-size: 1.6rem;
 }
 
 .footer li{
-    margin-bottom: 20px ;
+    margin-bottom: 2rem;
 }
  .footer li a:link,a:visited {
     text-decoration: none;
@@ -399,4 +412,7 @@ margin-left: -100px;
 .footer li a:hover,a:active {
    transition: all 0.2s ease-in-out;
     border-bottom: 2px solid #333;
+}
+.mg-down{
+   margin-bottom: 10rem; 
 }
