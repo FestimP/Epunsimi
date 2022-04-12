@@ -1,0 +1,6 @@
+.btn-main-1, .btn-main-2 {
+  position: absolute;
+  left: 50%;
+  top: 74%;
+
+1280x1024 - optimal rez.
