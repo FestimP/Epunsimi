@@ -21,13 +21,10 @@ letter-spacing: 0.7px;
 @media (max-width:1440px)
 {
     .form-button {
-      left: 6%;
-      top: 130%;
+      /* left: 6%; */
+      top: 80vh;
       }
-      .form-button.btn-main-2  {
-  
-          left: 27%;
-      }
+      
       .texti {
           top: 22%;
       left: 29%;
@@ -37,9 +34,9 @@ letter-spacing: 0.7px;
  {
   .form-button {
     left: 6%;
-    top: 120%;
-    width: 21vw;
-    height: 11vh;
+    top: 50%;
+    width: 20.5%;
+
     }
     .form-button.btn-main-2  {
 
@@ -49,6 +46,13 @@ letter-spacing: 0.7px;
         top: 22%;
     left: 29%;
     }
+    .subscribe .form-button {
+          /* width: 15.5vw; */
+          height: 6.5vh;
+          padding: 0rem;
+          display: block;
+          width: 100%;
+      }
     .footer {
         gap:8rem;
     }
@@ -74,14 +78,17 @@ letter-spacing: 0.7px;
         line-height: 4rem;
     }
     .form-button {
-        top: 80%;
+        top: 50%;
     }
-    .form-button.btn-main-2 {
+    /* .form-button.btn-main-2 {
         margin-left: 1.2rem;
-    }
+    } */
     .container {
         display: grid;
         justify-content: center;
+    }
+    .perfitimet {
+        padding: 4rem 9rem 7.5rem 8.3rem;
     }
     article h3 {
         padding: 0 0 0 27%;
@@ -91,6 +98,7 @@ letter-spacing: 0.7px;
         margin: 4.8rem 0 4.8rem 0;
     font-size: 3rem;
     }
+   
     .footer {
         gap:5rem
     }
@@ -116,45 +124,62 @@ letter-spacing: 0.7px;
         font-size: 50%;
     }
     .form-button {
-        width: 15.5vw;
-height: 5.5vh;
 padding: 0rem
     }
-    .form-button.btn-main-2 {
-        width: 15.5vw;
-height: 5.5vh;
-padding: 0rem;
-margin-left: -3rem;
-    }
     .texti {
-        top: 15vh;
-left: 31vw;
+        top: 17rem;
+        left: 25rem;
 font-size: 1.8rem;
 opacity: 0.8;
-line-height: 4rem;
+line-height: 3.5rem;
 background-color: rgba(225,225,225,0.6);
     }
+    .reviews {
+        gap: 5rem;
+    }
+    .footer {
+        display: grid;
+        grid-template-columns: auto auto;
+
+    }
+    .footer-container {
+        grid-column: 1/-1;
+    }
+    .footer-contain-me {
+        grid-row: 2/1;
+    }
+    .footer-personi {
+        grid-row: 3/1;
+    grid-column: 2/3;
+    }
+    .footer-punedhenesi  {
+            grid-row: 3/2;
+            grid-column: 2/2;
+    }
+    .footer-contain-last {
+        grid-column: -4/-1;
+    }
 }
-@media (max-width:320px) {
+@media (max-width:350px) {
     html {
         font-size: 30%;
     }
     .texti {
-        top: 31vh;
-        left: 53vw;
+        top: 17rem;
+        left: 23rem;
         font-size: 1.8rem;
         opacity: 0.8;
         line-height: 3rem;
     }
     .form-button,.form-button.btn-main-2 {
-        width: 14.5vw;
+        /* width: 14.5vw; */
         height: 5.5vh;
 padding: 0rem;
 font-size: 1.2rem;
     }
-    .form-button.btn-main-2 {
+    /* .form-button.btn-main-2 {
         margin-left: -1.8rem;
-    }
+    } */
     article h3 {
         padding: 0 27% 0 27%;
     }
@@ -164,10 +189,27 @@ font-size: 1.2rem;
         font-size: 3rem;
     }
    .subscribe .form-button {
-        width: 15.5vw;
+        /* width: 15.5vw; */
         height: 5.5vh;
         padding: 0rem;
         display: block;
         width: 100%;
+    }
+}
+@media (max-width:225px) {
+    html{
+        font-size: 20%;
+    }
+    .footer ul {
+        margin-left:-10rem;
+    }
+    .footer p{
+        margin-left: 1rem;
+    }
+    .footer h4 {
+        margin-left: 1rem;
+    }
+    .footer .span .img {
+        margin: 10rem;
     }
 }
