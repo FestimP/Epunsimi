@@ -54,6 +54,55 @@ text-decoration: none;
     color: #3D9FFF;
    border-bottom: 3px solid currentColor;
 }
+.sidepanel-btn {
+    display: none;
+}
+ .sidepanel  {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 25rem;
+    top: 0;
+    left: 0;
+    background-color: #3D9FFF;
+    overflow-x: auto; 
+    transition: 0.5s;
+    padding-top: 6rem;
+  }
+  
+  .sidepanel a {
+       padding: 0rem 0px 2rem 30%;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #111;
+    display: block;
+    transition: 0.3s;
+   
+  }
+  
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 2.5rem;
+    font-size: 3.6rem;
+  }
+  
+  .openbtn {
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 1rem 1.5rem;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color:#444;
+  }
 .vija{
     height:100%;
     max-width:2px;
@@ -70,6 +119,9 @@ display: none;
 }
 .kontenti a{
     margin-left: 4rem;
+}
+.kontenti .sidepanel-btn {
+    display: none;
 }
 
 .Main .koka{
@@ -112,6 +164,7 @@ left: 50%;
     transform: translate(-50%, -50%);
     mix-blend-mode: screen;
     height: 19%;
+    display: none;
 
 }
 .texti{
@@ -394,7 +447,7 @@ margin-bottom: 6.4rem;
     margin-top: 12.8rem;
     display: flex;
 	width: 100%;
-	max-height: 47.4rem;
+	height: 47.4rem;
 	border-radius: 5px;
     border-top: 1px solid rgba(0,0,0,.06);
     gap: 10rem;
