@@ -287,7 +287,7 @@ background-color: #12b886;}
 article {
     margin-top: 12.8rem;
 }
-article h3{
+article h2{
     padding-left: 44%;
 margin: 4.8rem;
 font-size: 3rem;
@@ -348,7 +348,7 @@ img{
     box-shadow: 0 0 1.5rem 0 rgba(38, 93, 135, 0.06);
 
 }
-.article h3{
+.article h2{
     margin: 0 9% 6.4rem -20%;
 }
 
