@@ -204,8 +204,8 @@ margin-left: 2.4rem;
 }
 .btn:link,
 .btn:visited{
-background-color:#12b886 ;
-color: white;
+background-color:white ;
+color: #333;
 text-transform: uppercase;
 text-decoration: none;
 padding: 0.8rem 1.6rem;
@@ -213,6 +213,7 @@ display: inline-block;
 font-weight: 600;
 font-size: 1.8rem;
 border-radius: 50px;
+border: 1px solid #333;
 }
 .btn:hover,.btn:active{
   box-shadow: 0px 1.5rem 1rem rgba(0, 0, 0,0.06);
@@ -437,11 +438,14 @@ img{
 	border-radius: 5px;
 	font-size: 1.8rem;
 	color: white;
-	box-shadow: 0 0.4rem 2rem rgba(0, 0, 0, 0.06);
+	box-shadow: 0 0.4rem 2rem rgba(0, 0, 0, 0.1);
+}
+.form-button:link,.form-button:visited {
+    background: #3D9FFF;
 }
 
-.form-button:hover {
-	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.06);
+.form-button:hover,.form-button:active {
+	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
 }
 
 .notice-copy {
