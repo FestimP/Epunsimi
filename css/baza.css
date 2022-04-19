@@ -32,7 +32,7 @@ body{
     font-size: 1.6rem;
 }
 .nav .logo{
-    width:auto;
+    width:31.7rem;
      height:8rem;
 }
 
@@ -135,7 +135,7 @@ display: none;
     display: grid;
     grid-template-columns: auto auto;
    /* background-image: url("/img/st.jpg"); */
- background-color: #cccccc;
+ background-color: #fff;
 width: 100%;
 max-height: 100rem;
 }
@@ -204,8 +204,8 @@ margin-left: 2.4rem;
 }
 .btn:link,
 .btn:visited{
-background-color:white ;
-color: #333;
+background-color:#12b886 ;
+color: white;
 text-transform: uppercase;
 text-decoration: none;
 padding: 0.8rem 1.6rem;
@@ -213,7 +213,6 @@ display: inline-block;
 font-weight: 600;
 font-size: 1.8rem;
 border-radius: 50px;
-border: 1px solid #333;
 }
 .btn:hover,.btn:active{
   box-shadow: 0px 1.5rem 1rem rgba(0, 0, 0,0.06);
@@ -288,7 +287,7 @@ background-color: #12b886;}
 article {
     margin-top: 12.8rem;
 }
-article h3{
+article h2{
     padding-left: 44%;
 margin: 4.8rem;
 font-size: 3rem;
@@ -349,7 +348,7 @@ img{
     box-shadow: 0 0 1.5rem 0 rgba(38, 93, 135, 0.06);
 
 }
-.article h3{
+.article h2{
     margin: 0 9% 6.4rem -20%;
 }
 
@@ -437,15 +436,12 @@ img{
 	height: 6.5rem;
 	border-radius: 5px;
 	font-size: 1.8rem;
-	color: white;
-	box-shadow: 0 0.4rem 2rem rgba(0, 0, 0, 0.1);
-}
-.form-button:link,.form-button:visited {
-    background: #3D9FFF;
+	color:#111;
+	box-shadow: 0 0.4rem 2rem rgba(0, 0, 0, 0.06);
 }
 
-.form-button:hover,.form-button:active {
-	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+.form-button:hover {
+	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.06);
 }
 
 .notice-copy {
